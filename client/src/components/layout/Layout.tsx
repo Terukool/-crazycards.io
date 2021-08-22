@@ -1,8 +1,8 @@
 import React, { FC } from 'react';
-import './App.css';
+import styles from './Layout.module.scss';
 
 const Layout : FC = () => 
-    <div>
+    <div className={styles.rabbit}>
       ddd
     </div>;
     
